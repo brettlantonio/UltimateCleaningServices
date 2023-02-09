@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="nav-bar">
+        <div class="main-header">
+            <img src="alogo-1.webp" alt="logo">
+            <button id="HomeButton">Menu</button>
+        </div>
+
+        <button id="Services">Services</button>
+        <button id="About">About Us</button>
+        <button id="Contact">Contact Us</button>
+    </div>
+
+    <div class=contactus id="contactus">
+        <form action="contact_page.php" method="post">
+            <label for="fname">First Name</label>
+            <input type="text" name="fname" id="fname" placeholder="Your First Name" required>
+
+            <label for="lname">Last Name</label>
+            <input type="text" name="lname" id="lname" placeholder="Your Last Name" required>
+
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="Your Email" required>
+
+            <label for="phonenumber">Phone Number</label>
+            <input type="tel" name="phonenumber" id="phonenumber" placeholder="5555555555" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required>
+
+            <input type="submit" value="Submit">
+     
+        </form>
+    </div>
+    <div class="header-image">
+        <img src="pexels-pixabay-48889.jpg" alt="cleaning image" class="cleaning-image-header">
+    </div>
+
+    <div class="main-body">
+        <div class="main-body-header">
+            <h2>Cleaning Services in the Greater Philadelphia Area</h2>
+        </div>
+        <div class="main-body-content">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur odio tenetur magni expedita error quos minima tempora dolorum qui? Veniam omnis esse autem asperiores, unde deleniti tempore ratione minima modi?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, aut! Tempora tempore nam magnam. Voluptates quibusdam doloribus omnis aliquid laborum. Velit numquam expedita iusto asperiores, voluptas est praesentium impedit provident.</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae, voluptate maxime fugit officia qui nesciunt at, provident similique vitae enim deleniti illum iusto minima quisquam hic molestias repellat voluptates dolore?</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit non dolorum facere a eligendi quaerat unde officiis fuga eius! Repellat, blanditiis sit expedita deserunt dolorum autem praesentium nostrum fugiat vitae?</p>
+
+        </div>
+        <div class="body-header-2">
+            <h2>Services Offered:</h2>
+        </div>
+        <div class="body-2-content">
+            <ul>
+                <li>Cleaning</li>
+                <li>Vaccuming</li>
+                <li>Floor Waxing</li>
+                <li>Lawn Care</li>
+            </ul>
+        </div>
+
+
+        </div>
+
+    </div>
+    
+</body>
+</html>
